@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Business Consult</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/Images/consulting-logo.png">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="index.html">
+                <img src="./Images/consulting-logo.png" height="60" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown fs-5">
+                        <a class="nav-link dropdown-toggle active text-white" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fs-5" href="#">Become a Business Supporter</a></li>
+                            <li><a class="dropdown-item fs-5" href="#">Unlock Expert Business Advice</a></li>
+                            <li><a class="dropdown-item fs-5" href="#">Get Professional Business Guidance</a></li>
+                            <li><a class="dropdown-item fs-5" href="#">Transform Your Business with Strategic Insights</a>
+                            </li>
+                            <li><a class="dropdown-item fs-5" href="#">Take Your Business to the Next Level
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-disabled="true" href="Dashboard.html">Dashboard </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white fs-5" aria-disabled="true" href="contact.html">Contact </a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 fs-5" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light fs-5" type="submit">Search</button>
+                </form>
+                <div class="mx-2">
+                    <button class="btn btn-danger fs-5" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+                    <button class="btn btn-danger fs-5" data-bs-toggle="modal" data-bs-target="#signupModal">Signup</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Login to Business Consult </h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="container my-2 d-flex flex-column justify-content-center align-items-center">
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleinputEmail1"
+                                placeholder="Enter Your Email ">
+                            <small id="emailHelp" class="form-text text-muted"> We will never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="col-12">
+                            <br>
+                            <label for="inputAddress2" class="form-label">Password</label>
+                            <input type="text" class="form-control" id="inputAddress2"
+                                placeholder="Enter Your Password ">
+                            <small id="emailHelp" class="form-text text-muted"> We will never share your password with
+                                anyone
+                                else.</small>
+                        </div>
+                        <br>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                        </form>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="sighnupModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Create an Business Consult Account</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+
+                    <div class="container my-2 d-flex flex-column justify-content-center align-items-center">
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleinputEmail1"
+                                placeholder="Enter Your Name ">
+                        </div>
+                        <div class="col-12">
+                            <br>
+                            <label for="inputAddress" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="exampleinputEmail1"
+                                placeholder="Enter Your Mobile Number ">
+                        </div>
+                        <div class="col-12">
+                            <br>
+                            <label for="inputAddress" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleinputEmail1"
+                                placeholder="Enter Your Email ">
+
+                        </div>
+                        <div class="col-12">
+                            <br>
+                            <label for="inputAddress2" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="inputAddress2"
+                                placeholder="Enter Your Password ">
+
+                        </div>
+                        <div class="col-12">
+                            <br>
+                            <label for="cinputAddress2" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="inputAddress2"
+                                placeholder="Enter Your Confirm Password ">
+                        </div>
+                        <br>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    Check me out
+                                </label>
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Create Account</button>
+                        </div>
+                        </form>
+                    </div>
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- About us contents -->
+    <div class="container my-4">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">It all started Business Consulting Hub Idea</h2>
+                <p class="lead">
+                    <br>
+                    Welcome to our Business Consulting Hub! Here, we provide expert advice to help your business grow and succeed. We offer insightful strategies, practical solutions, and innovative ideas to guide you through every step of your business journey. Whether you're looking to improve operations or expand your reach, our consulting services are here to support and empower your business
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="/Images/aboutimg1.jpg" height="600" alt="">
+            </div>
+        </div>
+        <br>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">We started Business Consulting Hub in 2024</h2>
+                <br>
+                <p class="lead">We’re excited to launch our new Business Consulting Hub, where we’ll explore the latest strategies, share expert advice, and dive into innovative solutions. Whether you’re just starting out or looking to scale your business, our goal is to provide valuable insights and practical tips to help you grow, adapt, and succeed in the dynamic world of business. Join us on this journey as we strategize, learn, and thrive togetherp>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img class="img-fluid" src="/Images/aboutimg3.avif" height="600" alt="">
+            </div>
+        </div>
+        <br>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Purpose of Business Consulting Hub</h2>
+                <br>
+                <p class="lead">
+                    Our goal is to create a supportive community where businesses of all sizes can learn, share, and grow together. We offer expert advice, strategic insights, and practical solutions to help you navigate challenges, optimize operations, and drive success. Whether you're a startup or an established enterprise, we keep you informed about the latest market trends, innovative business practices, and growth strategies. Join us as we explore new opportunities, tackle business challenges, and build a prosperous future through effective consulting
+                </p>
+            </div>
+            <div class="col-md-5">
+                <img class="img-fluid" src="/Images/aboutimg3.gif" height="600">
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!-- Footer -->
+    <div class="container ">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="home.html" class="nav-link fw-bold text-dark">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link fw-bold text-dark ">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link fw-bold text-dark ">Features</a></li>
+            <li class="nav-item"><a href="Dashboard.html" class="nav-link fw-bold text-dark ">Dashboard</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link fw-bold text-dark ">Contact</a></li>
+          </ul>
+          <p class="text-center fw-bold text-dark">© 2024–2031  · <a href="#">Privacy</a> · <a href="#">Terms</a> · Business Consulting India Pvt. Ltd.</p>
+        </footer>
+      </div>
+    <br>
+    <br>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
