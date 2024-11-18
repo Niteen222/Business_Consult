@@ -1,7 +1,6 @@
 #image {
-    height: 600px;
+    max-height: 60vh;
     object-fit: cover;
-    /* opacity: 0.8; */
 }
 
 .navbar-toggler-icon {
@@ -26,7 +25,7 @@ nav{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.6); 
 }
 
 .carousel-caption {
